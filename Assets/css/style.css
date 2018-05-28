@@ -1,0 +1,33 @@
+.txtColor{
+    color: rgb(245, 245, 245);
+}
+.form-decoration{
+    background-color: #119797;
+    width: 320px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 80px;
+    border-radius: 10%;
+}
+.navbar-inverse {
+    background-color: #048989;
+    border-color: #048989;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #7ab8b8;
+}
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: #7ab8b8;
+}
+.panel-default {
+    border-color: #16c2c2;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #16c2c2;
+    border-color: #16c2c2;
+}
+.panel-default {
+    border-color: #16c2c2;
+}

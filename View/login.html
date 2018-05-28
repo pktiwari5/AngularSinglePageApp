@@ -1,0 +1,22 @@
+<div class="container form-decoration">
+    <div class="text-center txtColor">
+        <strong>LOGIN</strong>
+      </div>
+    <div class="alert alert-danger" data-ng-if="isError">
+        <strong>{{error}}</strong>
+      </div>
+  <form name="form">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" ng-model="email" ng-required="true">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" ng-model="password" ng-required="true">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-default" ng-disabled="form.$invalid" ng-click="login()">Login</button>
+ </form>
+</div>
